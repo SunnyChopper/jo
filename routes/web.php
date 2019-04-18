@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/startup-application', 'PagesController@startup_application');
+Route::get('/community', 'PagesController@community');
